@@ -1,11 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-
+import Sidebar from './components/Sidebar'
+import ChatWindow from './components/ChatWindow'
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl" >chatgpt-clone</h1>
+      <div className="flex">
+        <Sidebar />
+        <ChatWindow />  
+      </div>
     </>
   )
 }
