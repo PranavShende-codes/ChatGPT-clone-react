@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>chatgpt-clone</h1>
+      <h1 className="text-3xl" >chatgpt-clone</h1>
     </>
   )
 }
